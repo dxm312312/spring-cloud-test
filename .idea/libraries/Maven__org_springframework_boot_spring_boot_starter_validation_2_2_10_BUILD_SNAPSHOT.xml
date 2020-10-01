@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.boot:spring-boot-starter-validation:2.2.10.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-validation/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-validation-2.2.10.BUILD-20200917.095701-97.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-validation/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-validation-2.2.10.BUILD-20200917.095701-97-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-validation/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-validation-2.2.10.BUILD-20200917.095701-97-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
