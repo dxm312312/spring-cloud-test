@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Server/server.iml" filepath="$PROJECT_DIR$/Server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServiceRegistry/service_registry.iml" filepath="$PROJECT_DIR$/ServiceRegistry/service_registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-clould-test.iml" filepath="$PROJECT_DIR$/.idea/spring-clould-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
     </modules>
   </component>
 </project>

@@ -9,12 +9,15 @@
         <module name="client" />
         <module name="server" />
         <module name="service_registry" />
+        <module name="turbine" />
+        <module name="turbine2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="client" target="1.8" />
       <module name="server" target="1.8" />
       <module name="service_registry" target="1.8" />
+      <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

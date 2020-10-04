@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-starter-aop:2.2.10.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-aop/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-aop-2.2.10.BUILD-20200917.095659-98.jar!/" />
+      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-aop/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-aop-2.2.10.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-aop/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-aop-2.2.10.BUILD-20200917.095659-98-javadoc.jar!/" />
+      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-aop/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-aop-2.2.10.BUILD-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-aop/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-aop-2.2.10.BUILD-20200917.095659-98-sources.jar!/" />
+      <root url="jar://D:/maven_repository/org/springframework/boot/spring-boot-starter-aop/2.2.10.BUILD-SNAPSHOT/spring-boot-starter-aop-2.2.10.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

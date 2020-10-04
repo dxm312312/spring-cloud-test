@@ -15,6 +15,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.HashMap;
 import java.util.Map;
 
+//直接通过restTemplate调接口的demo
 @RestController
 @RequestMapping("/test")
 public class RestTemplateController {
@@ -33,6 +34,7 @@ public class RestTemplateController {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.valueOf("application/json;UTF-8"));
         HttpEntity<String> httpEntity = new HttpEntity<>(JSON.toJSONString(paramMap),headers);
+        //postForEntity与postForObject 区别：postForObject直接返回json出参，postForEntity还有其它参数，需要getBody
         ResponseEntity<String> response2 = restTemplate.postForEntity("http://s1:8001/hello", httpEntity, String.class);
         return response2.getBody();
     }
