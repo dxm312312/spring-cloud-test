@@ -17,7 +17,7 @@ public class TestController
     @RequestMapping("/hello")
     public String test(@RequestBody Map map){
         System.out.println(map);
-        int i = 1/0;
+        //int i = 1/0;
         return "helo world:"+port;
     }
 
