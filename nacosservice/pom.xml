@@ -11,7 +11,7 @@
 	<groupId>com.springClould</groupId>
 	<artifactId>nacos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>nacos</name>
+	<name>nacosservice</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -31,6 +31,12 @@
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+
+		<!-- 配置中心 -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
 		</dependency>
 
 		<dependency>
