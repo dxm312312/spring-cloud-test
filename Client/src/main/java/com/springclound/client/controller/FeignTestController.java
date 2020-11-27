@@ -9,9 +9,12 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,8 +28,15 @@ public class FeignTestController {
     @HystrixCommand(fallbackMethod = "fail")
     public String test(){
         Map<String,Object> paramMap = new HashMap<>();
-        paramMap.put("ab","aa");
+        paramMap.put("ab","8101");
         return feignTestService.hello(paramMap);
+    }
+
+    @GetMapping("/test")
+    public String test5(HttpServletRequest request){
+
+        String cookie = request.getHeader("Cookie");
+        return "test:"+":"+cookie;
     }
 
     //熔断方法必须与test方法参数一致，多的Throwable可以打印异常信息
