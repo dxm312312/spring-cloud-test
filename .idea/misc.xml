@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
         <option value="$PROJECT_DIR$/nacosconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/nacosservice/pom.xml" />
+        <option value="$PROJECT_DIR$/consul/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul_consul/pom.xml" />
       </list>
     </option>
   </component>

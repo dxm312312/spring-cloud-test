@@ -3,13 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Client/client.iml" filepath="$PROJECT_DIR$/Client/client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacosconsumer/nacosconsumer.iml" filepath="$PROJECT_DIR$/nacosconsumer/nacosconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul/consul.iml" filepath="$PROJECT_DIR$/consul/consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacosservice/nacos.iml" filepath="$PROJECT_DIR$/nacosservice/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacosconsumer/nacosconsumer.iml" filepath="$PROJECT_DIR$/nacosconsumer/nacosconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server/server.iml" filepath="$PROJECT_DIR$/Server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServiceRegistry/service_registry.iml" filepath="$PROJECT_DIR$/ServiceRegistry/service_registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-clould-test.iml" filepath="$PROJECT_DIR$/.idea/spring-clould-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_consul/zuul_consul.iml" filepath="$PROJECT_DIR$/zuul_consul/zuul_consul.iml" />
     </modules>
   </component>
 </project>
