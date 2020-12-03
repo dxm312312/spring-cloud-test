@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springClould</groupId>
-	<artifactId>nacos</artifactId>
+	<artifactId>nacosservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>nacosservice</name>
 	<description>Demo project for Spring Boot</description>
@@ -37,6 +37,11 @@
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
 
 		<dependency>

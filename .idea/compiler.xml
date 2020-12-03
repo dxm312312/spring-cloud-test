@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="consul" />
-        <module name="nacos" />
         <module name="nacosconsumer" />
         <module name="nacosservice" />
         <module name="server" />
