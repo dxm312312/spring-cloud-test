@@ -1,6 +1,7 @@
 package com.springclould.nacosconsumer;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -29,17 +30,4 @@ public class NacosconsumerApplication {
 
 }
 
-@RestController
- class TestController {
 
-	private final RestTemplate restTemplate;
-
-	@Autowired
-	public TestController(RestTemplate restTemplate) {this.restTemplate = restTemplate;}
-
-	@RequestMapping(value = "/hello")
-	@SentinelResource(value = "sayHello")
-	public String hello(@RequestBody Map map) {
-		return restTemplate.postForObject("http://nacos-provider/hello", map, String.class);
-	}
-}
