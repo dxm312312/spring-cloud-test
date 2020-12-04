@@ -21,8 +21,6 @@
     <bytecodeTargetLevel target="1.8">
       <module name="client" target="1.8" />
       <module name="consul" target="1.8" />
-      <module name="nacos" target="1.8" />
-      <module name="nacosconfig" target="1.8" />
       <module name="nacosconsumer" target="1.8" />
       <module name="nacosservice" target="1.8" />
       <module name="server" target="1.8" />

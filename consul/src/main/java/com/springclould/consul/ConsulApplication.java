@@ -19,7 +19,7 @@ public class ConsulApplication {
 	@Value("${server.port}")
 	private String port;
 
-	@RequestMapping("/hello")
+	@RequestMapping("/consul/hello")
 	public String hello(){
 		return "hello"+port;
 	}
